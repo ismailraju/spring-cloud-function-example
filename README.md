@@ -12,7 +12,7 @@ Hello Youtube⏎
 - *Consumer* - `/consume` - expects an input
 
 ```
-curl -H 'Content-Type: text/plain' http://localhost:8080/consume -d 'Hello TechPrimer'
+curl -X POST -H 'Content-Type: text/plain' http://localhost:8080/consume -d 'Hello TechPrimer'
 ```
 
 - *Function* - `/function` - expects an input and output
